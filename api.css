@@ -1,0 +1,84 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.container {
+    width: 33%;
+}
+
+.card {
+    background-color: #343434;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    padding: 3%;
+    text-align: center;
+    color: white;
+}
+
+.card h4 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 1rem auto;
+}
+
+#icon {
+    width: 20%;
+   margin: 0 auto;
+}
+
+h6 #weather {
+    text-transform: capitalize;
+    margin-top: 2rem;
+     margin:10px auto;
+    
+
+}
+
+.refresh {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    background: transparent;
+    border: 0;
+    color: #9c9d9d;
+    font-size: 30pox;
+    border-radius: 50%;
+    height: 100px;
+
+    box-shadow: 10px 4px 10px #252525, 5px 5px 18px #4a4a4a;
+}
+
+.refresh:hover {
+    box-shadow: inset 10px 4px 10px #252525, inset 5px 5px 18px #4a4a4a;
+}
+#hum,#spe {
+    font-size: 20px;
+    margin:10px auto;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        width: 80% ;
+    }
+    .refresh{
+        height: 70px;
+        width: 70px;
+    }
+    .card h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem auto;
+}
+}
+
